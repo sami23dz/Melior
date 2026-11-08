@@ -1,1 +1,18 @@
-{"announcements": []}
+{
+  "announcements": [
+    {
+      "id": "2026-11-news-test",
+      "date": "2026-11-08",
+      "type": "news",
+      "important": false,
+      "title": {
+        "en": "Test",
+        "ar": "اختبار"
+      },
+      "body": {
+        "en": "Test 1",
+        "ar": "اختبار 1"
+      }
+    }
+  ]
+}
