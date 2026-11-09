@@ -1,23 +1,28 @@
 {
   "announcements": [
     {
-      "id": "2026-11-update-new-update-0-1-16",
+      "id": "2026-11-update-0-1-17",
       "date": "2026-11-09",
       "type": "update",
-      "important": true,
+      "important": false,
       "title": {
-        "en": "New update 0.1.16",
-        "ar": "تحديث جديد 0.1.16"
+        "en": "MelioReader 0.1.17 is out",
+        "ar": "صدر MelioReader 0.1.17"
       },
-      "link": {
-        "url": "https://www.mediafire.com/file/ukqmc91q6vllbam/MelioReader-0.1.16.apk/file",
-        "label": {
-          "en": "Update 0.1.16",
-          "ar": "اصدار 0.1.16"
-        }
-      },
-      "minVersion": "0.1.15",
-      "maxVersion": "0.1.16"
+      "body": {
+        "en": "+Fixed fuzzy matching\n+Improved overall performance",
+        "ar": "+ تم إصلاح مشكلة المطابقة التقريبية\n+ تحسين الأداء العام"
+      }
     }
-  ]
+  ],
+  "update": {
+    "version": "0.1.17",
+    "url": "https://github.com/sami23dz/Melior/releases/download/v0.1.17/melioreader-0.1.17.apk",
+    "sha256": "982b15f596e6ab5b6a51ae6de6c336fe18a53217544c1c431d1e7453df320270",
+    "size": 384338,
+    "notes": {
+      "en": "+Fixed fuzzy matching\n+Improved overall performance",
+      "ar": "+ تم إصلاح مشكلة المطابقة التقريبية\n+ تحسين الأداء العام"
+    }
+  }
 }
