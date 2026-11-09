@@ -1,3 +1,28 @@
 {
-  "announcements": []
+  "announcements": [
+    {
+      "id": "2026-11-update-0-1-17",
+      "date": "2026-11-10",
+      "type": "update",
+      "important": false,
+      "title": {
+        "en": "MelioReader 0.1.17 is out",
+        "ar": "صدر MelioReader 0.1.17"
+      },
+      "body": {
+        "en": "+improved overall performance\n+Fixed several minor bugs",
+        "ar": "+ تحسين الأداء العام\n+ إصلاح بعض المشاكل الطفيفة"
+      }
+    }
+  ],
+  "update": {
+    "version": "0.1.17",
+    "url": "https://github.com/sami23dz/Melior/releases/download/v0.1.17/melioreader-0.1.17.apk",
+    "sha256": "844d103cb002f64ccc90d980f86809bb41e099782e18409f71838c7e68aa658f",
+    "size": 384338,
+    "notes": {
+      "en": "+improved overall performance\n+Fixed several minor bugs",
+      "ar": "+ تحسين الأداء العام\n+ إصلاح بعض المشاكل الطفيفة"
+    }
+  }
 }
