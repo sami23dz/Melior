@@ -4,7 +4,7 @@
       "id": "2026-11-update-new-update-0-1-16",
       "date": "2026-11-09",
       "type": "update",
-      "important": false,
+      "important": true,
       "title": {
         "en": "New update 0.1.16",
         "ar": "تحديث جديد 0.1.16"
