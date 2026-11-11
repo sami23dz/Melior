@@ -2,7 +2,7 @@
 
 A fast, private manga reader for Android. It reads from pluggable sources, keeps your library and progress on the device, and works offline for anything you download.
 
-**Version:** 0.1.18 · **Min Android:** 6.0 (API 23) · **Languages:** English, Arabic (RTL)
+**Version:** 0.1.19 · **Min Android:** 6.0 (API 23) · **Languages:** English, Arabic (RTL)
 
 ## Features
 
@@ -12,6 +12,8 @@ A fast, private manga reader for Android. It reads from pluggable sources, keeps
 - **Downloads.** Save chapters for offline reading, with a foreground service for long queues.
 - **Sources as plugins.** Each source is a small JavaScript file that runs in a sandboxed iframe. Bundled sources: 3asq, Mangalek, Mangalink, MangaLionz, MangaSpark, MangaStarz, MangaSwat, Team X.
 - **Interface language.** Switch between Auto, English and العربية from Home or Settings.
+- **Backup to a file.** Export saves a `.json` through Android's file screen (or copies the text); Import can load that file back. Nothing leaves the phone unless you move the file.
+- **Backup addresses.** If a site stops answering (and the phone is online), the app tries the source's mirrors plus any addresses you add under Sources > the source, switches to the first that answers, and repeats the request. It tells you, and Reset goes back. A failed search is not repeated for a minute. Chapter images already listed under the old address keep that address.
 - **Data saver.** Optional image resizing for slow connections.
 - **Announcements and in-app updates.** Driven by a JSON file you host (see `announcements.example.json`).
 - **MelioShield.** Library, progress, settings and source code are encrypted on disk with a key from the Android keystore. The app also warns if it was signed with a different key than the official one.
