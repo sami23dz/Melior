@@ -1,6 +1,21 @@
 {
   "announcements": [
     {
+      "id": "2026-11-update-0-1-18",
+      "date": "2026-11-11",
+      "type": "update",
+      "important": false,
+      "title": {
+        "en": "MelioReader 0.1.18 is out",
+        "ar": "صدر MelioReader 0.1.18"
+      },
+      "body": {
+        "en": "+ (Fixed) Plugin sandbox: sources can no longer reach the network on their own\n+ (Fixed) Broken images getting stuck: check/error pages are no longer cached as images, and tap-to-retry now really reloads\n+ (Fixed) App crash when copying a large backup\n+ (Fixed) Update install prompt being lost when the app is in the background\n+ (Fixed) Downloads: Wi-Fi-waiting chapters now resume by themselves, page order past 999 pages, service start/stop crash\n+ (Fixed) Marking many chapters as read when jumping with the slider\n+ (Fixed) Source browsing stopping early or falling back wrongly (Madara sources), Team X sending too many requests at once\n+ (Patched) Redirects can no longer forward your request data to another site\n+ (Patched) Slow DNS lookups can no longer hang a request\n+ (Patched) Data saver proxy is skipped for 5 minutes after repeated failures instead of delaying every page\n+ (Patched) Update check now verifies the signing key and build number before installing\n+ (Patched) Unreadable saved data is set aside and reported instead of being overwritten\n+ (Patched) Source install shows the full code and warns about network calls\n+ (Added) Pause button on the download notification\n+ (Improved) Arabic: notifications, security check screen, update messages and ~35 missing texts\n+ (Improved) Accessibility: dialogs, current tab and focus handling, page labels in the reader",
+        "ar": "+ (إصلاح) إضافة عزل بيئة الإضافات (Plugin Sandbox): لم تعد مصادر الإضافات قادرة على الوصول إلى الشبكة بشكل مباشر.\n+ (إصلاح) مشكلة الصور المعطوبة التي تظل عالقة: لم تعد صفحات الأخطاء أو التحقق تُخزّن مؤقتًا على أنها صور، كما أصبح خيار النقر لإعادة المحاولة يعيد تحميل الصورة فعليًا.\n+ (إصلاح) تعطل التطبيق عند نسخ نسخة احتياطية كبيرة الحجم.\n+ (إصلاح) فقدان إشعار تثبيت التحديث عند انتقال التطبيق إلى الخلفية.\n+ (إصلاح) التنزيلات:\n  - استئناف تنزيل الفصول تلقائيًا عند عودة اتصال Wi-Fi.\n  - معالجة مشكلة ترتيب الصفحات التي يتجاوز عددها 999 صفحة.\n  - إصلاح تعطل التطبيق عند بدء أو إيقاف خدمة التنزيلات.\n+ (إصلاح) تحديد عدد كبير من الفصول كمقروءة عند التنقل باستخدام شريط التمرير.\n+ (إصلاح) مشكلات تصفح المصادر، بما في ذلك توقف التصفح مبكرًا أو الانتقال إلى مصادر بديلة بشكل خاطئ (مصادر Madara)، وتقليل الطلبات المتزامنة المفرطة من Team X.\n+ (ترقيع أمني) منع عمليات إعادة التوجيه من تمرير بيانات طلبك إلى مواقع أخرى.\n+ (ترقيع أمني) منع عمليات البحث البطيئة عبر DNS من تعليق الطلبات.\n+ (ترقيع) تجاوز بروكسي توفير البيانات لمدة 5 دقائق بعد تكرار فشله، بدلًا من التسبب في تأخير تحميل كل صفحة.\n+ (ترقيع أمني) أصبح التحقق من التحديثات يفحص مفتاح التوقيع ورقم إصدار البناء قبل السماح بالتثبيت.\n+ (ترقيع) عزل البيانات المحفوظة غير القابلة للقراءة والإبلاغ عنها بدلًا من الكتابة فوقها.\n+ (ترقيع أمني) عند تثبيت مصدر جديد، أصبح التطبيق يعرض الشيفرة البرمجية كاملةً ويحذّر من عمليات الاتصال بالشبكة.\n+ (إضافة) زر إيقاف مؤقت في إشعار التنزيلات.\n+ (تحسين) دعم اللغة العربية:\n  - تحسين ترجمة الإشع"
+      },
+      "maxVersion": "0.1.17"
+    },
+    {
       "id": "2026-11-update-0-1-17",
       "date": "2026-11-10",
       "type": "update",
@@ -16,13 +31,13 @@
     }
   ],
   "update": {
-    "version": "0.1.17",
-    "url": "https://github.com/sami23dz/Melior/releases/download/v0.1.17/melioreader-0.1.17.apk",
-    "sha256": "844d103cb002f64ccc90d980f86809bb41e099782e18409f71838c7e68aa658f",
-    "size": 384338,
+    "version": "0.1.18",
+    "url": "https://github.com/sami23dz/Melior/releases/download/v0.1.18/melioreader-0.1.18.apk",
+    "sha256": "a1e928f77538535a916b44207bb561d7d8b3a5fc8ff88386a5a33b16b2109b94",
+    "size": 396626,
     "notes": {
-      "en": "+improved overall performance\n+Fixed several minor bugs",
-      "ar": "+ تحسين الأداء العام\n+ إصلاح بعض المشاكل الطفيفة"
+      "en": "+ (Fixed) Plugin sandbox: sources can no longer reach the network on their own\n+ (Fixed) Broken images getting stuck: check/error pages are no longer cached as images, and tap-to-retry now really reloads\n+ (Fixed) App crash when copying a large backup\n+ (Fixed) Update install prompt being lost when the app is in the background\n+ (Fixed) Downloads: Wi-Fi-waiting chapters now resume by themselves, page order past 999 pages, service start/stop crash\n+ (Fixed) Marking many chapters as read when jumping with the slider\n+ (Fixed) Source browsing stopping early or falling back wrongly (Madara sources), Team X sending too many requests at once\n+ (Patched) Redirects can no longer forward your request data to another site\n+ (Patched) Slow DNS lookups can no longer hang a request\n+ (Patched) Data saver proxy is skipped for 5 minutes after repeated failures instead of delaying every page\n+ (Patched) Update check now verifies the signing key and build number before installing\n+ (Patched) Unreadable saved data is set aside and reported instead of being overwritten\n+ (Patched) Source install shows the full code and warns about network calls\n+ (Added) Pause button on the download notification\n+ (Improved) Arabic: notifications, security check screen, update messages and ~35 missing texts\n+ (Improved) Accessibility: dialogs, current tab and focus handling, page labels in the reader",
+      "ar": "+ (إصلاح) إضافة عزل بيئة الإضافات (Plugin Sandbox): لم تعد مصادر الإضافات قادرة على الوصول إلى الشبكة بشكل مباشر.\n+ (إصلاح) مشكلة الصور المعطوبة التي تظل عالقة: لم تعد صفحات الأخطاء أو التحقق تُخزّن مؤقتًا على أنها صور، كما أصبح خيار النقر لإعادة المحاولة يعيد تحميل الصورة فعليًا.\n+ (إصلاح) تعطل التطبيق عند نسخ نسخة احتياطية كبيرة الحجم.\n+ (إصلاح) فقدان إشعار تثبيت التحديث عند انتقال التطبيق إلى الخلفية.\n+ (إصلاح) التنزيلات:\n  - استئناف تنزيل الفصول تلقائيًا عند عودة اتصال Wi-Fi.\n  - معالجة مشكلة ترتيب الصفحات التي يتجاوز عددها 999 صفحة.\n  - إصلاح تعطل التطبيق عند بدء أو إيقاف خدمة التنزيلات.\n+ (إصلاح) تحديد عدد كبير من الفصول كمقروءة عند التنقل باستخدام شريط التمرير.\n+ (إصلاح) مشكلات تصفح المصادر، بما في ذلك توقف التصفح مبكرًا أو الانتقال إلى مصادر بديلة بشكل خاطئ (مصادر Madara)، وتقليل الطلبات المتزامنة المفرطة من Team X.\n+ (ترقيع أمني) منع عمليات إعادة التوجيه من تمرير بيانات طلبك إلى مواقع أخرى.\n+ (ترقيع أمني) منع عمليات البحث البطيئة عبر DNS من تعليق الطلبات.\n+ (ترقيع) تجاوز بروكسي توفير البيانات لمدة 5 دقائق بعد تكرار فشله، بدلًا من التسبب في تأخير تحميل كل صفحة.\n+ (ترقيع أمني) أصبح التحقق من التحديثات يفحص مفتاح التوقيع ورقم إصدار البناء قبل السماح بالتثبيت.\n+ (ترقيع) عزل البيانات المحفوظة غير القابلة للقراءة والإبلاغ عنها بدلًا من الكتابة فوقها.\n+ (ترقيع أمني) عند تثبيت مصدر جديد، أصبح التطبيق يعرض الشيفرة البرمجية كاملةً ويحذّر من عمليات الاتصال بالشبكة.\n+ (إضافة) زر إيقاف مؤقت في إشعار التنزيلات.\n+ (تحسين) دعم اللغة العربية:\n  - تحسين ترجمة الإشع"
     }
   }
 }
