@@ -2,20 +2,21 @@
 
 A fast, private manga reader for Android. It reads from pluggable sources, keeps your library and progress on the device, and works offline for anything you download.
 
-**Version:** 0.1.19 · **Min Android:** 6.0 (API 23) · **Languages:** English, Arabic (RTL)
+**Version:** 0.1.20 · **Min Android:** 6.0 (API 23) · **Languages:** English, Arabic (RTL)
 
 ## Features
 
 - **Search across sources.** One query searches every enabled source and groups the same title together. It forgives typos ("hormiya" finds Horimiya).
 - **Library and progress.** Continue where you left off, unread counts, and undo when you remove a series.
 - **Reader.** Webtoon (continuous) and paged modes, zoom, and right-to-left support.
-- **Downloads.** Save chapters for offline reading, with a foreground service for long queues.
+- **Downloads.** Save chapters for offline reading, with a foreground service for long queues. Pick chapters by hand (Details > download button > Select chapters; press and hold to pick a range), pause, resume or cancel one chapter or everything, retry failures, and see the queue and what is saved under Settings > Downloads > Manage. A paused chapter continues from the pages it already has.
 - **Sources as plugins.** Each source is a small JavaScript file that runs in a sandboxed iframe. Bundled sources: 3asq, Mangalek, Mangalink, MangaLionz, MangaSpark, MangaStarz, MangaSwat, Team X.
 - **Interface language.** Switch between Auto, English and العربية from Home or Settings.
 - **Backup to a file.** Export saves a `.json` through Android's file screen (or copies the text); Import can load that file back. Nothing leaves the phone unless you move the file.
 - **Backup addresses.** If a site stops answering (and the phone is online), the app tries the source's mirrors plus any addresses you add under Sources > the source, switches to the first that answers, and repeats the request. It tells you, and Reset goes back. A failed search is not repeated for a minute. Chapter images already listed under the old address keep that address.
-- **Data saver.** Optional image resizing for slow connections.
-- **Announcements and in-app updates.** Driven by a JSON file you host (see `announcements.example.json`).
+- **Data saver.** Optional image resizing for slow connections. The default, "On mobile data only", shrinks pages while Android reports a metered connection and keeps full quality on Wi-Fi.
+- **Load ahead.** The reader loads the pages on screen plus the next 3 (Settings > Reader > Load ahead, 1 to 12), in webtoon and paged modes, so stopping early does not download the rest of the chapter.
+- **Announcements and in-app updates.** Driven by a JSON file you host (see `announcements.example.json`). When the file is on `raw.githubusercontent.com` the app reads it through GitHub's API (with ETag, so an unchanged file costs a tiny 304) because the raw address is cached for 5 minutes and a `?query` does not get around that; if the API is rate-limited or unreachable it falls back to the raw address. New posts show up within about a minute or two. No token is used or needed.
 - **MelioShield.** Library, progress, settings and source code are encrypted on disk with a key from the Android keystore. The app also warns if it was signed with a different key than the official one.
 
 ## Project layout
