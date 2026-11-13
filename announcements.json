@@ -1,29 +1,29 @@
 {
   "announcements": [
     {
-      "id": "2026-11-update-0-1-20",
-      "date": "2026-11-12",
+      "id": "2026-11-update-0-1-21",
+      "date": "2026-11-13",
       "type": "update",
       "important": false,
       "title": {
-        "en": "MelioReader 0.1.20 is out",
-        "ar": "صدر MelioReader 0.1.20"
+        "en": "MelioReader 0.1.21 is out",
+        "ar": "صدر MelioReader 0.1.21"
       },
       "body": {
-        "en": "(Added: backup to a file. Export has \"Save as file\" and Import has \"Choose a backup file\", both through Android's file screen)\n(Added: automatic backup addresses. If a site stops answering, the app tries its mirrors and switches to one that works, and Reset goes back)\n(Added: \"Extra backup addresses\" box for each source, included in backups)\n(Added: Downloads manager under Settings > Downloads > Manage, with Pause, Resume and Cancel for each chapter)\n(Added: Pause all, Resume all and Cancel unfinished, and a retry button on failed chapters that shows the reason)\n(Added: pick chapters by hand, with press-and-hold for a range, a Select menu (All, Unread, Not downloaded, Downloaded), and bulk download, pause or delete)\n(Improved: a paused or failed chapter continues from the pages it already has)\n(Added: Load ahead setting, 3 pages by default (choose 1 to 12), for webtoon and paged modes)\n(Added: data saver \"On mobile data only\", now the default. Pages are resized on mobile data and stay full quality on Wi-Fi)\n(Improved: announcements and update notices appear in about 1–2 minutes instead of up to 10)\n(Patched: \"Check now\" asks GitHub directly, and \"Copy backup\" says when the text is too big)\n(Arabic translations added for all of the above)",
-        "ar": "(إضافة: نسخ احتياطي إلى ملف. التصدير فيه «حفظ كملف» والاستيراد فيه «اختيار ملف نسخة احتياطية» عبر شاشة الملفات في أندرويد)\n(إضافة: عناوين احتياطية تلقائية. إذا توقف موقع عن الاستجابة يجرّب التطبيق مرايا المصدر ويتحوّل إلى ما يعمل، و«إعادة ضبط» تعيدك إلى الأصلي)\n(إضافة: خانة «عناوين احتياطية إضافية» لكل مصدر، وتُحفظ ضمن النسخة الاحتياطية)\n(إضافة: إدارة التنزيلات من الإعدادات > التنزيلات > إدارة، مع إيقاف مؤقت واستئناف وإلغاء لكل فصل)\n(إضافة: إيقاف الكل مؤقتًا واستئناف الكل وإلغاء غير المكتمل، وزر إعادة المحاولة للفصول الفاشلة مع عرض السبب)\n(إضافة: تحديد الفصول يدويًا، مع الضغط المطوّل لتحديد نطاق، وقائمة «تحديد» (الكل، غير المقروء، غير المنزّل، المنزّل)، وتنزيل أو إيقاف أو حذف المحدّد دفعة واحدة)\n(تحسين: الفصل الموقوف أو الفاشل يكمل من الصفحات التي حُمّلت سابقًا)\n(إضافة: إعداد «التحميل المسبق»، 3 صفحات افتراضيًا (من 1 إلى 12)، لوضع الويبتون والوضع المقسّم)\n(إضافة: توفير البيانات «عند بيانات الجوال فقط» وهو الآن الافتراضي. تُصغَّر الصفحات على بيانات الجوال وتبقى بجودتها الكاملة على Wi-Fi)\n(تحسين: تظهر الإعلانات وإشعارات التحديث خلال دقيقة إلى دقيقتين بدل 10 دقائق)\n(إصلاح: «تحقق الآن» يسأل GitHub مباشرة، و«نسخ النسخة الاحتياطية» يخبرك عندما يكون النص أكبر من أن يُنسخ)\n(إضافة الترجمة العربية لكل ما سبق)"
+        "en": "(improved) search for other languages then English.\n(Fixed) Several smaller bugs.",
+        "ar": "(تم تحسين) البحث عن لغات أخرى غير الإنجليزية.\n(تم إصلاح) بعض الأخطاء الطفيفة."
       },
-      "maxVersion": "0.1.19"
+      "maxVersion": "0.1.20"
     }
   ],
   "update": {
-    "version": "0.1.20",
-    "url": "https://github.com/sami23dz/Melior/releases/download/v0.1.20/melioreader-0.1.20.apk",
-    "sha256": "453b1143133ba7884f4ad2867eb68a5e4a38d36a51e47ae2fe8110f4db2bfd23",
-    "size": 408989,
+    "version": "0.1.21",
+    "url": "https://github.com/sami23dz/Melior/releases/download/v0.1.21/melioreader-0.1.21.apk",
+    "sha256": "ff9171bfc7d0c462050f666e90debb73d3e2e5f7133034a3dd8907bb164d4a09",
+    "size": 421277,
     "notes": {
-      "en": "(Added: backup to a file. Export has \"Save as file\" and Import has \"Choose a backup file\", both through Android's file screen)\n(Added: automatic backup addresses. If a site stops answering, the app tries its mirrors and switches to one that works, and Reset goes back)\n(Added: \"Extra backup addresses\" box for each source, included in backups)\n(Added: Downloads manager under Settings > Downloads > Manage, with Pause, Resume and Cancel for each chapter)\n(Added: Pause all, Resume all and Cancel unfinished, and a retry button on failed chapters that shows the reason)\n(Added: pick chapters by hand, with press-and-hold for a range, a Select menu (All, Unread, Not downloaded, Downloaded), and bulk download, pause or delete)\n(Improved: a paused or failed chapter continues from the pages it already has)\n(Added: Load ahead setting, 3 pages by default (choose 1 to 12), for webtoon and paged modes)\n(Added: data saver \"On mobile data only\", now the default. Pages are resized on mobile data and stay full quality on Wi-Fi)\n(Improved: announcements and update notices appear in about 1–2 minutes instead of up to 10)\n(Patched: \"Check now\" asks GitHub directly, and \"Copy backup\" says when the text is too big)\n(Arabic translations added for all of the above)",
-      "ar": "(إضافة: نسخ احتياطي إلى ملف. التصدير فيه «حفظ كملف» والاستيراد فيه «اختيار ملف نسخة احتياطية» عبر شاشة الملفات في أندرويد)\n(إضافة: عناوين احتياطية تلقائية. إذا توقف موقع عن الاستجابة يجرّب التطبيق مرايا المصدر ويتحوّل إلى ما يعمل، و«إعادة ضبط» تعيدك إلى الأصلي)\n(إضافة: خانة «عناوين احتياطية إضافية» لكل مصدر، وتُحفظ ضمن النسخة الاحتياطية)\n(إضافة: إدارة التنزيلات من الإعدادات > التنزيلات > إدارة، مع إيقاف مؤقت واستئناف وإلغاء لكل فصل)\n(إضافة: إيقاف الكل مؤقتًا واستئناف الكل وإلغاء غير المكتمل، وزر إعادة المحاولة للفصول الفاشلة مع عرض السبب)\n(إضافة: تحديد الفصول يدويًا، مع الضغط المطوّل لتحديد نطاق، وقائمة «تحديد» (الكل، غير المقروء، غير المنزّل، المنزّل)، وتنزيل أو إيقاف أو حذف المحدّد دفعة واحدة)\n(تحسين: الفصل الموقوف أو الفاشل يكمل من الصفحات التي حُمّلت سابقًا)\n(إضافة: إعداد «التحميل المسبق»، 3 صفحات افتراضيًا (من 1 إلى 12)، لوضع الويبتون والوضع المقسّم)\n(إضافة: توفير البيانات «عند بيانات الجوال فقط» وهو الآن الافتراضي. تُصغَّر الصفحات على بيانات الجوال وتبقى بجودتها الكاملة على Wi-Fi)\n(تحسين: تظهر الإعلانات وإشعارات التحديث خلال دقيقة إلى دقيقتين بدل 10 دقائق)\n(إصلاح: «تحقق الآن» يسأل GitHub مباشرة، و«نسخ النسخة الاحتياطية» يخبرك عندما يكون النص أكبر من أن يُنسخ)\n(إضافة الترجمة العربية لكل ما سبق)"
+      "en": "(improved) search for other languages then English.\n(Fixed) Several smaller bugs.",
+      "ar": "(تم تحسين) البحث عن لغات أخرى غير الإنجليزية.\n(تم إصلاح) بعض الأخطاء الطفيفة."
     }
   }
 }
