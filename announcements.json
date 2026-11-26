@@ -1,6 +1,21 @@
 {
   "announcements": [
     {
+      "id": "2026-11-update-0-1-23",
+      "date": "2026-11-26",
+      "type": "update",
+      "important": false,
+      "title": {
+        "en": "MelioReader 0.1.23 is out",
+        "ar": "صدر MelioReader 0.1.23"
+      },
+      "body": {
+        "en": "HUUUUUUGE UPDATE (A lot of new stuff but basically sign-in added)",
+        "ar": "تحديث ضخم"
+      },
+      "maxVersion": "0.1.21"
+    },
+    {
       "id": "2026-11-update-0-1-21",
       "date": "2026-11-13",
       "type": "update",
@@ -17,13 +32,13 @@
     }
   ],
   "update": {
-    "version": "0.1.21",
-    "url": "https://github.com/sami23dz/Melior/releases/download/v0.1.21/melioreader-0.1.21.apk",
-    "sha256": "ff9171bfc7d0c462050f666e90debb73d3e2e5f7133034a3dd8907bb164d4a09",
-    "size": 421277,
+    "version": "0.1.23",
+    "url": "https://github.com/sami23dz/Melior/releases/download/v0.1.23/melioreader-0.1.23.apk",
+    "sha256": "d12679540364227f6a8081c7f5566ef226ac194179252313fd1518f75b44e6b1",
+    "size": 445307,
     "notes": {
-      "en": "(improved) search for other languages then English.\n(Fixed) Several smaller bugs.",
-      "ar": "(تم تحسين) البحث عن لغات أخرى غير الإنجليزية.\n(تم إصلاح) بعض الأخطاء الطفيفة."
+      "en": "HUUUUUUGE UPDATE (A lot of new stuff but basically sign-in added)",
+      "ar": "تحديث ضخم"
     }
   }
 }
