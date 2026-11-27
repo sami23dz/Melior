@@ -1,6 +1,20 @@
 {
   "announcements": [
     {
+      "id": "2026-11-update-0-1-24",
+      "date": "2026-11-27",
+      "type": "update",
+      "important": false,
+      "title": {
+        "en": "MelioReader 0.1.24 is out",
+        "ar": "صدر MelioReader 0.1.24"
+      },
+      "body": {
+        "en": "Fixed MangaSwat not working"
+      },
+      "maxVersion": "0.1.23"
+    },
+    {
       "id": "2026-11-update-0-1-23",
       "date": "2026-11-26",
       "type": "update",
@@ -32,13 +46,12 @@
     }
   ],
   "update": {
-    "version": "0.1.23",
-    "url": "https://github.com/sami23dz/Melior/releases/download/v0.1.23/melioreader-0.1.23.apk",
-    "sha256": "d12679540364227f6a8081c7f5566ef226ac194179252313fd1518f75b44e6b1",
+    "version": "0.1.24",
+    "url": "https://github.com/sami23dz/Melior/releases/download/v0.1.24/melioreader-0.1.24.apk",
+    "sha256": "8d05db5f21bb11c754558204c0dd882023cd3e17561d58f857aa9e4e46d64984",
     "size": 445307,
     "notes": {
-      "en": "HUUUUUUGE UPDATE (A lot of new stuff but basically sign-in added)",
-      "ar": "تحديث ضخم"
+      "en": "Fixed MangaSwat not working"
     }
   }
 }
